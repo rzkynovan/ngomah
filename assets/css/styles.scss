@@ -28,6 +28,32 @@ p,h1,h2,h3,h4,h5,h6{
     margin: 0 !important;
 }
 
+.btn-solid{
+    background: linear-gradient(139.35deg, #273A97 -3.05%, #2E46BE 53.21%);
+    box-shadow: 0px 0px 30px rgba(49, 69, 171, 0.6);
+    border-radius: 4px;
+    border: 2px solid transparent;
+    transition: 1s all !important;
+
+    &:hover{
+        border: 2px solid #2E46BE;
+        background: transparent ;
+    }
+    
+}
+
+.btn-outline{
+    border: 2px solid #2E46BE;
+    box-shadow: 0px 0px 30px rgba(49, 69, 171, 0.6);
+    transition: 1s all !important;
+    &:hover{
+        background: linear-gradient(139.35deg, #273A97 -3.05%, #2E46BE 53.21%);
+        box-shadow: 0px 0px 30px rgba(49, 69, 171, 0.6);
+        border-radius: 4px;
+        border: 2px solid transparent;
+    }
+}
+
 .scroll-header{
     background-color: #0A0C10 !important;
 }
@@ -62,6 +88,16 @@ p,h1,h2,h3,h4,h5,h6{
         h1{
             font-weight: 700;
             font-size: 64px;
+        }
+        p{
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 32px;
+            letter-spacing: 0.005em;
+
+            color: #FFFFFF;
+
+            opacity: 0.6;
         }
 
         
@@ -130,7 +166,7 @@ p,h1,h2,h3,h4,h5,h6{
         left: 50%;
         // left: 0;
         margin-left: -70px;
-        z-index: 10000;
+        z-index: 10;
         transform: translateY(-150px);
         animation: bounce 1s infinite;
 
@@ -144,6 +180,7 @@ p,h1,h2,h3,h4,h5,h6{
 }
 
 .popular-section{
+    background: #101010;
     h1{
         font-weight: 700;
         font-size: 48px;
@@ -200,7 +237,12 @@ p,h1,h2,h3,h4,h5,h6{
 }
 
 .about-us{
+    background-image: url('../img/aboutus-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 50%;
     .data{
+        
         h6{
             font-weight: 400;
             font-size: 20px;
@@ -226,31 +268,97 @@ p,h1,h2,h3,h4,h5,h6{
 
             opacity: 0.6;
         }
-        .button-wrapper{
-            .btn-solid{
-                background: linear-gradient(139.35deg, #273A97 -3.05%, #2E46BE 53.21%);
-                box-shadow: 0px 0px 30px rgba(49, 69, 171, 0.6);
-                border-radius: 4px;
-                border: 2px solid transparent;
-                transition: 1s all !important;
+    }
 
-                &:hover{
-                    border: 2px solid #2E46BE;
-                    background: transparent ;
-                }
-                
+}
+
+.contact{
+    background: #101010;
+    .data{
+        .d-flex{
+            h6{
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 32px;
+    
+                letter-spacing: 0.005em;
+    
+                color: #FFFFFF;
+    
+                opacity: 0.6;
+            }
+            h1{
+                font-weight: 700;
+                font-size: 48px;
+            }
+            p{
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 32px;
+                letter-spacing: 0.005em;
+    
+                color: #FFFFFF;
+    
+                opacity: 0.6;
             }
 
-            .btn-outline{
-                border: 2px solid #2E46BE;
-                box-shadow: 0px 0px 30px rgba(49, 69, 171, 0.6);
-                transition: 1s all !important;
-                &:hover{
-                    background: linear-gradient(139.35deg, #273A97 -3.05%, #2E46BE 53.21%);
-                    box-shadow: 0px 0px 30px rgba(49, 69, 171, 0.6);
-                    border-radius: 4px;
-                    border: 2px solid transparent;
-                }
+        }
+        .form-contact{
+            margin-top: 80px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 4px;
+
+            a{
+                width: 181px;
+            }
+
+            
+
+        }
+    }
+}
+
+footer{
+    .col-lg-4{
+        p{
+            letter-spacing: 0.005em;
+            color: #FFFFFF;
+            opacity: 0.6;
+
+        }
+    }
+    .col-lg-2{
+        h6{
+            background: linear-gradient(140.33deg, #FFA368 -13.01%, #F96C0C 106.01%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-fill-color: transparent;
+        }
+        a{
+            transition: .4s;
+            &:hover{
+                background: linear-gradient(140.33deg, #FFA368 -13.01%, #F96C0C 106.01%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                text-fill-color: transparent;
+            }
+        }
+    }
+    .copy{
+        letter-spacing: 0.005em;
+        color: #FFFFFF;
+        opacity: 0.6;
+        
+        a{
+            transition: .4s;
+            &:hover{
+                background: linear-gradient(140.33deg, #FFA368 -13.01%, #F96C0C 106.01%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                background-clip: text;
+                text-fill-color: transparent;
             }
         }
     }

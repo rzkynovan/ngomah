@@ -18,23 +18,23 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-transparent w-100" id="header">
         <div class="container-fluid container-lg" >
-          <a class="navbar-brand" href="#">NGOMAH</a>
+          <a class="navbar-brand" href="#"><img src="assets/img/nav-brand.png" alt="" class="img-fluid"></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav d-inline d-lg-flex gap-4 me-auto mb-2 mb-lg-0 mx-lg-4">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Product</a>
+                <a class="nav-link" href="#popular">Product</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#about-us">About Us</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
+                <a class="nav-link" href="#contact">Contact</a>
               </li>
 
             </ul>
@@ -42,12 +42,12 @@
         </div>
     </nav>
 
-    <section class="home-section">
+    <section class="home-section pb-5 py-lg-5" id="home">
         <div class="container">
             <div class="row">
                 <div class="data col-lg-6">
                     <h1>Live comfortably in a quiet real estate</h1>
-                    <p>Living in a Ngomah is like living in heaven. 
+                    <p class="mt-4">Living in a Ngomah is like living in heaven. 
                         Very comfortable, safe, and beautiful environment. Curious? Let's find out more!
                     </p>
                     <div class="categories d-flex mt-5">
@@ -84,7 +84,7 @@
                                 </ul>
                               </div>
                         </div>
-                        <a href="" class="btn btn-linear d-flex align-self-center px-5 py-3 mt-4 mt-lg-0">Search</a>
+                        <a href="" class="btn btn-linear d-flex align-self-start ms-4 align-self-lg-center ms-lg-0 px-5 py-3 mt-4 mt-lg-0">Search</a>
                     </div>
 
                     <div class="trust-element mt-5 d-flex gap-4 gap-lg-5">
@@ -115,8 +115,8 @@
         </div>
     </section>
 
-    <section class="popular-section">
-      <div class="container py-4 px-4 mt-5 mt-lg-0">
+    <section class="popular-section py-5" id="popular">
+      <div class="container py-4 px-4 ">
         <div class="d-flex justify-content-between align-items-end">
           <div class="d-flex flex-column">
             <h5>Best Choice</h5>
@@ -315,9 +315,9 @@
       </div>
     </section>
 
-    <section class="about-us" id="about-us">
-      <div class="container mt-5">
-        <div class="row">
+    <section class="about-us py-5" id="about-us">
+      <div class="container">
+        <div class="row d-flex align-items-center">
           <div class="col-lg-6 data d-flex flex-column gap-4">
             <h6>About Us</h6>
             <h1 >We Are Providing The Top Real State Property</h1>
@@ -331,11 +331,104 @@
             </div>
           </div>
           <div class="col-lg-6">
-              <img src="assets/img/about-us.png" alt="" class="img-fluid">
+              <img src="assets/img/about-us.png" alt="" class="img-fluid mt-5 mt-lg-0">
           </div>
         </div>
       </div>
     </section>
+
+    <section class="contact py-5" id="contact">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-5">
+            <img src="assets/img/contact-img.png" alt="" class="img-fluid mb-5 mb-lg-0">
+          </div>
+          <div class="col-lg-1"></div>
+          <div class="col-lg-6 data">
+              <div class="d-flex flex-column gap-4">
+                <h6>Contact</h6>
+                <h1>Do You Have Any Question?</h1>
+                <p>Ngomah offers services to satisfy your taste buds. Immediately write your email here to get an interesting promo today!</p>
+                </div>
+
+                <form action="" method="post" class="form-contact d-flex align-items-center justify-content-between px-2 py-2 gap-2">
+                  <input type="text" name="" id="" class="form-control bg-transparent border-0 text-light" placeholder=" Enter email address">
+                  <a href="" class="btn btn-solid px-4 text-light">Submit Here</a>
+                </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <footer id="footer" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-5 mb-lg-0">
+            <div class="nav-brand">
+              <img src="assets/img/nav-brand.png" alt="" class="img-fluid mb-5">
+            </div>
+            <p>Living in a Ngomah is like living in heaven. Very comfortable, safe, and beautiful environment. Curious? Let's find out more!</p>
+          </div>
+          <div class="col-lg-2">
+
+          </div>
+          <div class="col-lg-2">
+            <h6>Quick Access</h6>
+            <ul class="list-unstyled mt-4 d-flex flex-column gap-2">
+              <li>
+                <a href="" class="text-decoration-none">Home</a>
+              </li>
+              <li>
+                <a href="" class="text-decoration-none">Product</a>
+              </li>
+              <li>
+                <a href="" class="text-decoration-none">About Us</a>
+              </li>
+                <li>
+                  <a href="" class="text-decoration-none">Contact</a>
+                </li>
+            </ul>
+          </div>
+          <div class="col-lg-2">
+            <h6>Services</h6>
+            <ul class="list-unstyled mt-4 d-flex flex-column gap-2">
+              <li>
+                <a href="" class="text-decoration-none">Help Center</a>
+              </li>
+              <li>
+                <a href="" class="text-decoration-none">Rent</a>
+              </li>
+              <li>
+                <a href="" class="text-decoration-none">Buy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-2">
+            <h6>Contact us</h6>
+            <ul class="list-unstyled mt-4 d-flex flex-column gap-2">
+              <li>
+                <a href="" class="text-decoration-none">Instagram</a>
+              </li>
+              <li>
+                <a href="" class="text-decoration-none">Facebook</a>
+              </li>
+              <li>
+                <a href="" class="text-decoration-none">Twitter</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="copy d-flex flex-column gap-4 flex-lg-row gap-0 justify-content-between mt-4">
+          <p>Copyright © 2022</p>
+          <div class="button-wrapper d-flex gap-4">
+            <a class="text-decoration-none" href="">Terms & Conditions</a>
+            <a class="text-decoration-none" href="">Privacy Policy</a>
+          </div>
+        </div>
+      </div>
+    </footer>
 </body>
 
 <!-- JS Bootstrap -->
